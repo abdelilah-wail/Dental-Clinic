@@ -1,0 +1,77 @@
+/* ============================================================
+   DCMS Design Tokens
+   Light: clean medical SaaS inspired by Zendenta.
+   Dark: luxury SaaS glass with purple/blue accents, no gold.
+   ============================================================ */
+
+:root {
+	/* Brand */
+	--color-primary: #eef2ff;
+	--color-primary-600: #dbe4ff;
+	--color-surface: #ffffff;
+	--color-accent: #4f6bff;
+	--color-accent-hover: #4058e8;
+	--color-accent-2: #6c63ff;
+
+	/* Semantic */
+	--color-success: #22c55e;
+	--color-warning: #f59e0b;
+	--color-danger: #ef4444;
+
+	/* Premium highlight alias kept for older components */
+	--color-gold: var(--color-accent);
+
+	/* Neutrals */
+	--color-text: #1e293b;
+	--color-text-muted: #64748b;
+	--color-border: #e2e8f0;
+	--color-bg: #f7f8fc;
+	--color-bg-elevated: #f1f5ff;
+
+	/* Radii */
+	--radius-sm: 8px;
+	--radius-md: 12px;
+	--radius-lg: 16px;
+	--radius-full: 9999px;
+
+	/* Shadows */
+	--shadow-soft: 0 10px 30px rgba(15, 23, 42, 0.06);
+	--shadow-card: 0 18px 50px rgba(79, 107, 255, 0.12);
+	--shadow-pop: 0 24px 70px rgba(15, 23, 42, 0.14);
+
+	/* Glassmorphism */
+	--glass-bg: rgba(255, 255, 255, 0.82);
+	--glass-border: rgba(226, 232, 240, 0.9);
+	--blur-glass: 18px;
+
+	/* Motion */
+	--ease-lux: cubic-bezier(0.22, 1, 0.36, 1);
+	--dur-fast: 150ms;
+	--dur-base: 220ms;
+	--dur-slow: 360ms;
+
+	/* Spacing grid (8px) */
+	--space-1: 4px;  --space-2: 8px;  --space-3: 12px;
+	--space-4: 16px; --space-6: 24px; --space-8: 32px;
+}
+
+[data-theme="dark"] {
+	--color-primary: #050816;
+	--color-primary-600: #091124;
+	--color-surface: rgba(17, 24, 39, 0.72);
+	--color-accent: #7c5cfc;
+	--color-accent-hover: #9278ff;
+	--color-accent-2: #4f8cff;
+	--color-text: #f8fafc;
+	--color-text-muted: #9aa7bd;
+	--color-border: rgba(148, 163, 184, 0.18);
+	--color-bg: #050816;
+	--color-bg-elevated: #0d1326;
+
+	--glass-bg: rgba(17, 24, 39, 0.7);
+	--glass-border: rgba(124, 92, 252, 0.24);
+
+	--shadow-soft: 0 14px 40px rgba(0, 0, 0, 0.28);
+	--shadow-card: 0 24px 70px rgba(3, 8, 24, 0.42), 0 0 0 1px rgba(124, 92, 252, 0.08);
+	--shadow-pop: 0 32px 90px rgba(0, 0, 0, 0.55), 0 0 60px rgba(124, 92, 252, 0.16);
+}
