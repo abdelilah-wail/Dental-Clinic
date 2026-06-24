@@ -1120,7 +1120,7 @@ localStorage.clear()
 
 For questions or issues:
 
-- 📧 Email: support@dentalclinic.app
+- 📧 Email: nedjar.abdelilah.wail@gmail.com
 - 🐛 GitHub Issues: [Report a bug](https://github.com/abdelilah-wail/Dental-Clinic/issues)
 - 📚 Documentation: [Full docs](./docs/)
 
