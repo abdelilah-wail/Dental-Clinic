@@ -1,6 +1,6 @@
 # Dental Clinic Management System
 
-![Dental Clinic Login](client/public/Login_img.png)
+![Dental Clinic Login](https://raw.githubusercontent.com/abdelilah-wail/Dental-Clinic/main/client/public/Login_img.png)
 
 <div align="center">
 
